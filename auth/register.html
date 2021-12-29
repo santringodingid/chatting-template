@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santringoding Social</title>
+    <link rel="stylesheet" href="../assets/style/auth.css">
+    <link rel="stylesheet" href="../vendor/fontawesome/css/all.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="row">
+                <div class="brand">
+                    <h4>
+                        <i class="fa fa-share-alt"></i>
+                        Santringoding Social
+                    </h4>
+                </div>
+                <div class="navbar">
+                    <div class="nav-item nav-pointer" title="Tambah chat baru" id="daftar">
+                        <span class="btn">
+                            <i class="fas fa-user-plus"></i> Daftar
+                        </span>
+                    </div>
+                    <div class="nav-item nav-pointer" title="Login" id="login">
+                        <span class="btn">
+                            <i class="fas fa-sign-in-alt"></i> Login
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content">
+                <h3>Yuk, Daftar...</h3>
+                <hr>
+                <form action="" method="post" autocomplete="off" id="formregister">
+                    <input type="hidden" name="method" value="register">
+                    <input type="text" name="name" placeholder="Nama lengkap" class="form-control">
+                    <input type="text" name="bio" placeholder="Bio" class="form-control">
+                    <input type="text" name="username" placeholder="Username" class="form-control">
+                    <input type="password" name="password1" placeholder="Password" class="form-control">
+                    <input type="password" name="password2" placeholder="Ulangi password" class="form-control">
+                </form>
+                <span class="btn btn-add">Daftar</span>
+                <small>Ada pesan error</small>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
